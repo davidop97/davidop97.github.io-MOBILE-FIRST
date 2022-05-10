@@ -68,10 +68,11 @@ header img {
 .header--title-container .header--button {
     position: absolute;
     top: 270px;
-    margin-right: auto;
+    left: calc(50% - 114.5px);
+    /* margin-right: auto;
     margin-left: auto;
     right: 0;
-    left: 0;
+    left: 0; */
     /* Solo con posicion absolute se puede mover con top, right, etc.  */
     display: block;
     margin-top: 35px;
@@ -94,4 +95,22 @@ header img {
     height: 8px;
     margin-left: 10px;
     background-image: url('../assets/icons/down-arrow.svg');
+}
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
 }
