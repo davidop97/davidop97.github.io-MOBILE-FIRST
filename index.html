@@ -13,7 +13,7 @@
 <body>
    <header>
        <img src="./assets/img/logo.svg" alt="">
-       <div class="header--title-container">
+       <div class="header__title-container">
            <h1>La próxima revolución en el intercambio de criptomonedas</h1>
            <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias</p>
            <a href="" class="header--button">Conoce nuestros planes <span></span></a>
@@ -21,14 +21,37 @@
    </header>
    <main>
        <section class="main-exchange-container">
-           <div class="background img"></div>
-           <div class="main-exchange-container--title">
+           <div class="background-img"></div>
+           <div class="main-exchange-container__title">
                <h2>Visibilizamos todas las tasas de cambio</h2>
-               <p>Traemos información en tiepo real de las tasas de cambio y las monedas más importantes del mundo</p>
+               <p>Traemos información en tiempo real de las tasas de cambio y las monedas más importantes del mundo</p>
            </div>
-           <section class="main-tables-container">
-               <div>
-
+           <section class="main-tables">
+               <div class="main-tables__currency">
+                   <p class="main-tables__currency--title">Monedas</p>
+                   <div class="currency">
+                       <table>
+                           <tr>
+                               <td class="currency--top-left">Bitcoin</td>
+                               <td class="currency--top-right currency--right">$1.96 <span></span></td>
+                           </tr>
+                           <tr>
+                               <td>Ethereum</td>
+                               <td class="currency--right">$0.07</td>
+                           </tr>
+                           <tr>
+                               <td>Ripple</td>
+                               <td class="currency--right">$2.17</td>
+                           </tr>
+                           <tr>
+                               <td class="currency--bottom-left">Stellar</td>
+                               <td class="currency--bottom-right currency--right">4.96</td>
+                           </tr>
+                       </table>
+                   </div>
+                   <div class="currency-date">
+                       <p><b>Actualizado:</b> 19 Julio 23:45</p>
+                   </div>
                </div>
            </section>
        </section>
