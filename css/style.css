@@ -138,3 +138,92 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables__currency,
+.main-tables__comission {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.main-tables__currency .main-tables__currency--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+.main-tables__comission .main-tables__comission--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+.currency,
+.comission {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.currency table,
+.comission table {
+    width: 100%;
+    height: 100%;
+}
+.currency td,
+.comission td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+.currency .currency--top-left,
+.comission .comission--top-left {
+    border-radius: 15px 0 0 0;
+}
+.currency .currency--top-right,
+.comission .comission--top-right {
+    border-radius: 0 15px 0 0;
+}
+.currency .currency--bottom-left,
+.comission.comission--bottom-left {
+    border-radius: 0 0 0 15px;
+}
+.currency .currency--bottom-right,
+.comission .comission.comission--bottom-right {
+    border-radius: 0 0 15px 0;
+}
+/* Se hace así porque la tabla en si no se puede modificar, hay que hacerlo elemento por elemento */
+.currency .currency--right,
+.comission .comission--right {
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+.currency .down {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url(../assets/icons/trending-down.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.currency .up {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url(../assets/icons/trending-up.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
