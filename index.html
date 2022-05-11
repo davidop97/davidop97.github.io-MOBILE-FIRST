@@ -16,7 +16,7 @@
        <div class="header__title-container">
            <h1>La próxima revolución en el intercambio de criptomonedas</h1>
            <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias</p>
-           <a href="" class="header--button">Conoce nuestros planes <span></span></a>
+           <a href="#plans" class="header--button">Conoce nuestros planes <span></span></a>
        </div>
    </header>
    <main>
@@ -110,9 +110,57 @@
             </article>
            </section>
        </section>
-       <section></section>
-       <section></section>
+       <section class="bitcoin-img-container">
+           <h2>Conócelo hoy.</h2>
+       </section>
+       <section id="plans" class="plans">
+           <!-- Se usa id para realizar el atajo desde el primer boton de arriba -->
+           <div class="plans__title">
+               <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+               <p>Cualquier plan te da acceso a nuestra plataforma.</p>
+           </div>
+           <section class="plans__slider">
+               <article class="plans__slider__card">
+                   <p class="recommended">Recomendado</p>
+                   <div class="plan-info">
+                       <h3 class="plan-info__title">Pago Anual</h3>
+                       <p class="plan-info__price"><sup>$</sup>99</p>
+                       <p class="plan-info__saving">* Ahorras $129 comparado al plan mensual.</p>
+                       <button class="plan-info__ca">Escoger este <span></span></button>
+                   </div>
+               </article>
+               <article class="plans__slider__card">
+                   <p class="recommended">Bàsico</p>
+                   <div class="plan-info">
+                       <h3 class="plan-info__title">Pago Mensual</h3>
+                       <p class="plan-info__price"><sup>$</sup>19</p>
+                       <p class="plan-info__saving">* Un precio a tu medida.</p>
+                       <button class="plan-info__ca">Escoger este <span></span></button>
+                   </div>
+               </article>
+               <article class="plans__slider__card-exclusive">
+                   <p class="recommended">Exclusivo</p>
+                   <div class="plan-info">
+                       <h3 class="plan-info__title-exclusive">Pago Único</h3>
+                       <p class="plan-info__price-exclusive"><sup>$</sup>599</p>
+                       <p class="plan-info__saving">* No te preocuparás más en tu vida.</p>
+                       <button class="plan-info__ca">Escoger este <span></span></button>
+                   </div>
+               </article>
+           </section>
+       </section>
    </main> 
-   <footer></footer>
+   <footer>
+       <section class="footer__left">
+           <ul>
+               <li><a href="#">Crunchbase</a></li>
+               <li><a href="#">Linkedin</a></li>
+               <li><a href="#">Hackernews</a></li>
+           </ul>
+       </section>
+       <figure class="footer__right">
+           <img src="./assets/img/logo-footer.svg" alt="Este es el logo de Batatabit">
+       </figure>
+   </footer>
 </body>
 </html>
