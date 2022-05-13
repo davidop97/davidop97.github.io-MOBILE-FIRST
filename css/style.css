@@ -154,6 +154,7 @@ main {
     max-width: 500px;
     height: 360px;
     margin: 0 30px;
+    margin-left: 4rem;
     font-family: 'Inter', sans-serif;
 }
 .main-tables__currency .main-tables__currency--title {
@@ -429,6 +430,7 @@ main {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    justify-content: center;
 }
 .plans__slider__card {
     position: relative;
