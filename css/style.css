@@ -146,16 +146,24 @@ main {
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
-.main-tables__currency,
+.main-tables__currency {
+    width: 70%;
+    scroll-snap-align: center;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 70px;
+    font-family: 'Inter', sans-serif;
+}
 .main-tables__comission {
     width: 70%;
     scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 30px;
-    margin-left: 4rem;
-    font-family: 'Inter', sans-serif;
+    margin: 0;
+    margin-right: 70px;
+    font-family: 'Inter', sans-serif;    
 }
 .main-tables__currency .main-tables__currency--title {
     margin-bottom: 15px;
@@ -430,7 +438,6 @@ main {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    justify-content: center;
 }
 .plans__slider__card {
     position: relative;
